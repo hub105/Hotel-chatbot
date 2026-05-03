@@ -3,11 +3,10 @@ from groq import Groq
 
 app = Flask(__name__)
 
-# Replace with your actual Groq API key
 API_KEY = "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"
 client = Groq(api_key=API_KEY)
 
-HTML = '''
+HTML = ''' 
 <!DOCTYPE html>
 <html>
 <head>
